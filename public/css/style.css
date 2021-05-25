@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Patrick Hand', cursive;
+}
+
+body{
+    background-color: #1e1e1e;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    padding: 2vh;
+    font-size: 3rem;
+    color: #fff;
+    background: #1e1e1e;
+    box-shadow: inset 5px 5px 10px #0c0c0c,
+                          inset -5px -5px 10px #303030;
+    text-align: center;
+    border: 2px solid #fff;
+}
+
+.projectsContainer{
+    margin-top: 10vh;
+    padding: 2vh 2vw;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2vw;
+}
+
+.projectLogo{
+    width: 100%;
+    margin-bottom: 1vh;
+}
+
+.projectsContainer > div{
+    border-radius: 50px;
+    background: #1e1e1e;
+    box-shadow: inset 5px 5px 10px #0c0c0c,
+                          inset -5px -5px 10px #303030;
+    padding: 3vh 3vw;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name{
+    margin-bottom: 1vh;
+    color: #fff;
+    text-align: center;
+}
+
+
+button{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 1vh 1vw;
+    margin-top: 1vh;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+button:hover{
+    background: #1e1e1e;
+    box-shadow: inset 5px 5px 10px #0c0c0c,
+                          inset -5px -5px 10px #303030;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+footer{
+    margin-top: 2vh;
+    text-align: center;
+    background-color: #151515;
+    color: #fff;
+    padding: 2vh;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa-heart{
+    color: red;
+}
+
+
+@media all and (max-width:900px){
+    .projectsContainer{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media all and (max-width:700px){
+    .projectsContainer{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media all and (max-width:500px){
+    .projectsContainer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media all and (max-width:450px){
+    .projectsContainer{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
