@@ -73,7 +73,7 @@ batteryDemo = () => {
     window.open("https://sagar-sharma-7.github.io/battery-status/public/index.html")
 }
 
-bgcolorChangerCode = () => {
+bgcolorChangerDemo = () => {
     window.open("https://sagar-sharma-7.github.io/background-color-changer/index.html")
 }
 
