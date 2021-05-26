@@ -62,6 +62,10 @@ worldCovidCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Covid19-Tracker-Countr")
 }
 
+dictionaryCodes = () => {
+    window.open("https://github.com/Sagar-Sharma-7/dictionary")
+}
+
 
 
 // demos
@@ -95,4 +99,8 @@ indiaCovidDemo = () => {
 
 worldCovidDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Covid19-Tracker-Countries/")
+}
+
+dictionaryDemo = () => {
+    window.open("https://sagar-sharma-7.github.io/dictionary/")
 }
