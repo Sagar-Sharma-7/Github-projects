@@ -1,6 +1,6 @@
 # Github-projects
 ## Click on the link to access the tracker. 
-### [Covid19-Tracker-India](https://sagar-sharma-7.github.io/Covid19-Tracker-India/)
+### [My Github Projects](https://sagar-sharma-7.github.io/Github-projects/)
 
 <hr>
 
