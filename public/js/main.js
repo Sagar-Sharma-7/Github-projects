@@ -21,7 +21,8 @@ const projectArr = [
     "Color Palette",
     "Covid19 India",
     "Covid19 World",
-
+    "Dictionary",
+    "Currency Converter"
 ]
 
 for(let i = 0; i < projectArr.length; i++){
@@ -66,6 +67,9 @@ dictionaryCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/dictionary")
 }
 
+currencyCodes = () => {
+    window.open("https://github.com/Sagar-Sharma-7/Currency-Converter")
+}
 
 
 // demos
@@ -103,4 +107,8 @@ worldCovidDemo = () => {
 
 dictionaryDemo = () => {
     window.open("https://sagar-sharma-7.github.io/dictionary/")
+}
+
+currencyDemo = () => {
+    window.open("https://sagar-sharma-7.github.io/Currency-Converter/")
 }
