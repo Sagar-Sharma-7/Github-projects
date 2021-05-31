@@ -22,7 +22,8 @@ const projectArr = [
     "Covid19 India",
     "Covid19 World",
     "Dictionary",
-    "Currency Converter"
+    "Currency Converter",
+    "Quotes Generator"
 ]
 
 for(let i = 0; i < projectArr.length; i++){
@@ -71,6 +72,10 @@ currencyCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Currency-Converter")
 }
 
+quotesCodes = () => {
+    window.open("https://github.com/Sagar-Sharma-7/Quotes-Generator")
+}
+
 
 // demos
 gradientDemo = () => {
@@ -111,4 +116,8 @@ dictionaryDemo = () => {
 
 currencyDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Currency-Converter/")
+}
+
+quotesDemo = () => {
+    window.open("https://sagar-sharma-7.github.io/Quotes-Generator/")
 }
