@@ -23,7 +23,8 @@ const projectArr = [
     "Covid19 World",
     "Dictionary",
     "Currency Converter",
-    "Quotes Generator"
+    "Quotes Generator",
+    "Reaction Game"
 ]
 
 for(let i = 0; i < projectArr.length; i++){
@@ -76,6 +77,10 @@ quotesCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Quotes-Generator")
 }
 
+reactionGameCodes = () => {
+    window.open("https://github.com/Sagar-Sharma-7/Reaction-Game")
+}
+
 
 // demos
 gradientDemo = () => {
@@ -120,4 +125,8 @@ currencyDemo = () => {
 
 quotesDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Quotes-Generator/")
+}
+
+reactionGameDemo = () => {
+    window.open("https://sagar-sharma-7.github.io/Reaction-Game/public/index.html")
 }
