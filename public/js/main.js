@@ -24,7 +24,8 @@ const projectArr = [
     "Dictionary",
     "Currency Converter",
     "Quotes Generator",
-    "Reaction Game"
+    "Reaction Game",
+    "Number Guessing Game"
 ]
 
 for(let i = 0; i < projectArr.length; i++){
@@ -81,6 +82,10 @@ reactionGameCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Reaction-Game")
 }
 
+numGuessingCodes = () => {
+    window.open("https://github.com/Sagar-Sharma-7/Number-guessing-game")
+}
+
 
 // demos
 gradientDemo = () => {
@@ -129,4 +134,8 @@ quotesDemo = () => {
 
 reactionGameDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Reaction-Game/public/index.html")
+}
+
+numGuessingDemo = () => {
+    window.open("https://sagar-sharma-7.github.io/Number-guessing-game/")
 }
