@@ -25,7 +25,8 @@ const projectArr = [
     "Currency Converter",
     "Quotes Generator",
     "Reaction Game",
-    "Number Guessing Game"
+    "Number Guessing Game",
+    "Ceaser Cipher"
 ]
 
 for(let i = 0; i < projectArr.length; i++){
@@ -86,6 +87,10 @@ numGuessingCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Number-guessing-game")
 }
 
+ceaserCipherCodes = () => {
+    window.open("https://github.com/Sagar-Sharma-7/Ceaser-Cipher")
+}
+
 
 // demos
 gradientDemo = () => {
@@ -138,4 +143,8 @@ reactionGameDemo = () => {
 
 numGuessingDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Number-guessing-game/")
+}
+
+ceaserCipherDemo = () => {
+    window.open("https://sagar-sharma-7.github.io/Ceaser-Cipher/")
 }
