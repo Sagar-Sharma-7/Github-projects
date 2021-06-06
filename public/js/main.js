@@ -26,7 +26,8 @@ const projectArr = [
     "Quotes Generator",
     "Reaction Game",
     "Number Guessing Game",
-    "Ceaser Cipher"
+    "Ceaser Cipher",
+    "Digital Clock"
 ]
 
 for(let i = 0; i < projectArr.length; i++){
@@ -91,6 +92,10 @@ ceaserCipherCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Ceaser-Cipher")
 }
 
+digitalClockCodes = () => {
+    window.open("https://github.com/Sagar-Sharma-7/Digital-Clock")
+}
+
 
 // demos
 gradientDemo = () => {
@@ -147,4 +152,8 @@ numGuessingDemo = () => {
 
 ceaserCipherDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Ceaser-Cipher/")
+}
+
+digitalClockDemo = () => {
+    window.open("https://sagar-sharma-7.github.io/Digital-Clock/public/d-clock.html")
 }
