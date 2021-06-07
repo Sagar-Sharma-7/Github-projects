@@ -27,7 +27,8 @@ const projectArr = [
     "Reaction Game",
     "Number Guessing Game",
     "Ceaser Cipher",
-    "Digital Clock"
+    "Digital Clock",
+    "Quadractic Equation Solver"
 ]
 
 for(let i = 0; i < projectArr.length; i++){
@@ -96,6 +97,10 @@ digitalClockCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Digital-Clock")
 }
 
+quadraticCodes = () => {
+    window.open("https://github.com/Sagar-Sharma-7/Quadratic-Equation-Solver")
+}
+
 
 // demos
 gradientDemo = () => {
@@ -156,4 +161,8 @@ ceaserCipherDemo = () => {
 
 digitalClockDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Digital-Clock/public/d-clock.html")
+}
+
+quadraticDemo = () => {
+    window.open("https://sagar-sharma-7.github.io/Quadratic-Equation-Solver/")
 }
