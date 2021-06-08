@@ -28,7 +28,8 @@ const projectArr = [
     "Number Guessing Game",
     "Ceaser Cipher",
     "Digital Clock",
-    "Quadractic Equation Solver"
+    "Quadractic Equation Solver",
+    "Weight Converter"
 ]
 
 for(let i = 0; i < projectArr.length; i++){
@@ -101,6 +102,10 @@ quadraticCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Quadratic-Equation-Solver")
 }
 
+weightCodes = () => {
+    window.open("https://github.com/Sagar-Sharma-7/Weight-Converter")
+}
+
 
 // demos
 gradientDemo = () => {
@@ -165,4 +170,8 @@ digitalClockDemo = () => {
 
 quadraticDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Quadratic-Equation-Solver/")
+}
+
+weightDemo = () => {
+    window.open("https://sagar-sharma-7.github.io/Weight-Converter/public/index.html")
 }
