@@ -29,7 +29,8 @@ const projectArr = [
     "Ceaser Cipher",
     "Digital Clock",
     "Quadractic Equation Solver",
-    "Weight Converter"
+    "Weight Converter",
+    "LCM-HCF Calculator"
 ]
 
 for(let i = 0; i < projectArr.length; i++){
@@ -106,6 +107,10 @@ weightCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Weight-Converter")
 }
 
+lcmHcfCodes = () => {
+    window.open("https://github.com/Sagar-Sharma-7/LCM-HCF")
+}
+
 
 // demos
 gradientDemo = () => {
@@ -174,4 +179,8 @@ quadraticDemo = () => {
 
 weightDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Weight-Converter/public/index.html")
+}
+
+lcmHcfDemo = () => {
+    window.open("https://sagar-sharma-7.github.io/LCM-HCF/")
 }
