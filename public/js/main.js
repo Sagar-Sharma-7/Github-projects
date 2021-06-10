@@ -30,7 +30,8 @@ const projectArr = [
     "Digital Clock",
     "Quadractic Equation Solver",
     "Weight Converter",
-    "LCM-HCF Calculator"
+    "LCM-HCF Calculator",
+    "Height Converter"
 ]
 
 for(let i = 0; i < projectArr.length; i++){
@@ -111,6 +112,10 @@ lcmHcfCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/LCM-HCF")
 }
 
+heightCodes = () => {
+    window.open("https://github.com/Sagar-Sharma-7/height-converter.github.io")
+}
+
 
 // demos
 gradientDemo = () => {
@@ -183,4 +188,8 @@ weightDemo = () => {
 
 lcmHcfDemo = () => {
     window.open("https://sagar-sharma-7.github.io/LCM-HCF/")
+}
+
+heightDemo = () => {
+    window.open("https://sagar-sharma-7.github.io/height-converter.github.io/public/index.html")
 }
