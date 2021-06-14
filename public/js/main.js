@@ -31,7 +31,8 @@ const projectArr = [
     "Quadractic Equation Solver",
     "Weight Converter",
     "LCM-HCF Calculator",
-    "Height Converter"
+    "Height Converter",
+    "Password Generator"
 ]
 
 for(let i = 0; i < projectArr.length; i++){
@@ -116,6 +117,10 @@ heightCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/height-converter.github.io")
 }
 
+passwordCodes = () => {
+    window.open("https://github.com/Sagar-Sharma-7/Password-Generator")
+}
+
 
 // demos
 gradientDemo = () => {
@@ -192,4 +197,8 @@ lcmHcfDemo = () => {
 
 heightDemo = () => {
     window.open("https://sagar-sharma-7.github.io/height-converter.github.io/public/index.html")
+}
+
+passwordDemo = () => {
+    window.open("https://sagar-sharma-7.github.io/Password-Generator/")
 }
