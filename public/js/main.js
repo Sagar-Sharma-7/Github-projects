@@ -32,7 +32,8 @@ const projectArr = [
     "Weight Converter",
     "LCM-HCF Calculator",
     "Height Converter",
-    "Password Generator"
+    "Password Generator",
+    "Face Detection"
 ]
 
 for(let i = 0; i < projectArr.length; i++){
@@ -119,6 +120,10 @@ heightCodes = () => {
 
 passwordCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Password-Generator")
+}
+
+faceDetectionCodes = () => {
+    window.open("https://github.com/Sagar-Sharma-7/Face_Detection")
 }
 
 
