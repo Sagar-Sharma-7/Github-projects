@@ -33,7 +33,8 @@ const projectArr = [
     "LCM-HCF Calculator",
     "Height Converter",
     "Password Generator",
-    "Face Detection"
+    "Face Detection",
+    "Email - NodeJs"
 ]
 
 for(let i = 0; i < projectArr.length; i++){
@@ -124,6 +125,10 @@ passwordCodes = () => {
 
 faceDetectionCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Face_Detection")
+}
+
+emailCodes = () => {
+    window.open("https://github.com/Sagar-Sharma-7/Email-Node.js")
 }
 
 
