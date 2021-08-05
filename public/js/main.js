@@ -33,6 +33,7 @@ const projectArr = [
     "LCM-HCF Calculator",
     "Height Converter",
     "Password Generator",
+    "Astronomy picture of the day",
     "Face Detection",
     "Email - NodeJs"
 ]
@@ -123,6 +124,10 @@ passwordCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Password-Generator")
 }
 
+astro_picCodes = () =>{
+    window.open("https://github.com/Sagar-Sharma-7/Astronomy-picture-of-the-day")
+}
+
 faceDetectionCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Face_Detection")
 }
@@ -211,4 +216,8 @@ heightDemo = () => {
 
 passwordDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Password-Generator/")
+}
+
+astro_picDemo = () => {
+    window.open("https://sagar-sharma-7.github.io/Astronomy-picture-of-the-day/")
 }
