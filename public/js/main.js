@@ -35,7 +35,8 @@ const projectArr = [
     "Password Generator",
     "Astronomy picture of the day",
     "Face Detection",
-    "Email - NodeJs"
+    "Email - NodeJs",
+    "Armstrong Number"
 ]
 
 for(let i = 0; i < projectArr.length; i++){
@@ -134,6 +135,10 @@ faceDetectionCodes = () => {
 
 emailCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Email-Node.js")
+}
+
+armstrongCode = () => {
+    window.open("https://github.com/Sagar-Sharma-7/Armstrong_num")
 }
 
 
