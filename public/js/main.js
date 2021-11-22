@@ -13,6 +13,7 @@ demoBtn.forEach(y => {
 })
 
 const projectArr = [
+    "Age Calculator",
     "Gradient Palette",
     "Battery",
     "BG Color Changer",
@@ -45,184 +46,192 @@ for(let i = 0; i < projectArr.length; i++){
 
 
 // codes
+age_calCodes = () => {
+    window.open("https://github.com/Sagar-Sharma-7/Age-Calc")
+};
+
 gradientCode = () => {
     window.open("https://github.com/Sagar-Sharma-7/Gradients-Palette")
-}
+};
 
 batteryCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/battery-status")
-}
+};
 
 bgcolorChangerCode = () => {
     window.open("https://github.com/Sagar-Sharma-7/background-color-changer")
-}
+};
 
 bmiCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/BMI-Calculator")
-}
+};
 
 cheatSheetCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Cheat-Sheet")
-}
+};
 
 colorPalatteCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Color-Palette")
-}
+};
 
 indiaCovidCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Covid19-Tracker-India")
-}
+};
 
 worldCovidCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Covid19-Tracker-Countr")
-}
+};
 
 dictionaryCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/dictionary")
-}
+};
 
 currencyCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Currency-Converter")
-}
+};
 
 quotesCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Quotes-Generator")
-}
+};
 
 reactionGameCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Reaction-Game")
-}
+};
 
 numGuessingCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Number-guessing-game")
-}
+};
 
 ceaserCipherCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Ceaser-Cipher")
-}
+};
 
 digitalClockCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Digital-Clock")
-}
+};
 
 quadraticCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Quadratic-Equation-Solver")
-}
+};
 
 weightCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Weight-Converter")
-}
+};
 
 lcmHcfCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/LCM-HCF")
-}
+};
 
 heightCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/height-converter.github.io")
-}
+};
 
 passwordCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Password-Generator")
-}
+};
 
 astro_picCodes = () =>{
     window.open("https://github.com/Sagar-Sharma-7/Astronomy-picture-of-the-day")
-}
+};
 
 faceDetectionCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Face_Detection")
-}
+};
 
 emailCodes = () => {
     window.open("https://github.com/Sagar-Sharma-7/Email-Node.js")
-}
+};
 
 armstrongCode = () => {
     window.open("https://github.com/Sagar-Sharma-7/Armstrong_num")
-}
+};
 
 
 // demos
+age_calDemo = () => {
+    window.open("https://sagar-sharma-7.github.io/Age-Calc")
+};
+
 gradientDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Gradients-Palette/")
-}
+};
 
 batteryDemo = () => {
     window.open("https://sagar-sharma-7.github.io/battery-status/public/index.html")
-}
+};
 
 bgcolorChangerDemo = () => {
     window.open("https://sagar-sharma-7.github.io/background-color-changer/index.html")
-}
+};
 
 bmiDemo = () => {
     window.open("https://sagar-sharma-7.github.io/BMI-Calculator/")
-}
+};
 
 cheatSheetDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Cheat-Sheet/")
-}
+};
 
 colorPalatteDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Color-Palette/")
-}
+};
 
 indiaCovidDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Covid19-Tracker-India/")
-}
+};
 
 worldCovidDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Covid19-Tracker-Countries/")
-}
+};
 
 dictionaryDemo = () => {
     window.open("https://sagar-sharma-7.github.io/dictionary/")
-}
+};
 
 currencyDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Currency-Converter/")
-}
+};
 
 quotesDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Quotes-Generator/")
-}
+};
 
 reactionGameDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Reaction-Game/public/index.html")
-}
+};
 
 numGuessingDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Number-guessing-game/")
-}
+};
 
 ceaserCipherDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Ceaser-Cipher/")
-}
+};
 
 digitalClockDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Digital-Clock/public/d-clock.html")
-}
+};
 
 quadraticDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Quadratic-Equation-Solver/")
-}
+};
 
 weightDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Weight-Converter/public/index.html")
-}
+};
 
 lcmHcfDemo = () => {
     window.open("https://sagar-sharma-7.github.io/LCM-HCF/")
-}
+};
 
 heightDemo = () => {
     window.open("https://sagar-sharma-7.github.io/height-converter.github.io/public/index.html")
-}
+};
 
 passwordDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Password-Generator/")
-}
+};
 
 astro_picDemo = () => {
     window.open("https://sagar-sharma-7.github.io/Astronomy-picture-of-the-day/")
-}
+};
